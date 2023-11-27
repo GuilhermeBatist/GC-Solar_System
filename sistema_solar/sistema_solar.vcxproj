@@ -134,12 +134,6 @@
     <ClCompile Include="textFile.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="hover_red_planet.JPG" />
-    <Image Include="InitialPos.png" />
-    <Image Include="paused.png" />
-    <Image Include="without_hover.JPG" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="test.cont" />
     <None Include="test.eval" />
     <None Include="test.frag" />
