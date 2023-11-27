@@ -1,0 +1,8 @@
+﻿  textFile.cpp
+C:\IMPORTANTE\ubi\23_24\CompGrafica\TG\sistema_solar\sistema_solar\textFile.cpp(12,7): warning C4101: 'name': unreferenced local variable
+C:\IMPORTANTE\ubi\23_24\CompGrafica\TG\sistema_solar\sistema_solar\textFile.cpp(42,8): warning C4101: 'fp': unreferenced local variable
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 53 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  sistema_solar.vcxproj -> C:\IMPORTANTE\ubi\23_24\CompGrafica\TG\sistema_solar\x64\Release\sistema_solar.exe
