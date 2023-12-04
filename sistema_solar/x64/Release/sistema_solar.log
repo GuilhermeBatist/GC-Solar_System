@@ -1,13 +1,4 @@
 ﻿  sistema_solar.cpp
-C:\IMPORTANTE\ubi\23_24\CompGrafica\TG\Sistema-solar\GC-Solar_System\sistema_solar\sistema_solar.cpp(82,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\IMPORTANTE\ubi\23_24\CompGrafica\TG\Sistema-solar\GC-Solar_System\sistema_solar\sistema_solar.cpp(410,47): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
-C:\IMPORTANTE\ubi\23_24\CompGrafica\TG\Sistema-solar\GC-Solar_System\sistema_solar\sistema_solar.cpp(410,18): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
-  textFile.cpp
-C:\IMPORTANTE\ubi\23_24\CompGrafica\TG\Sistema-solar\GC-Solar_System\sistema_solar\textFile.cpp(12,7): warning C4101: 'name': unreferenced local variable
-C:\IMPORTANTE\ubi\23_24\CompGrafica\TG\Sistema-solar\GC-Solar_System\sistema_solar\textFile.cpp(42,8): warning C4101: 'fp': unreferenced local variable
-  Generating code
-  52 of 53 functions (98.1%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  sistema_solar.vcxproj -> C:\IMPORTANTE\ubi\23_24\CompGrafica\TG\Sistema-solar\GC-Solar_System\x64\Release\sistema_solar.exe
+C:\IMPORTANTE\ubi\23_24\CompGrafica\Libsnstuff\glad\include\glad\glad.h(27,1): error C1189: #error:  OpenGL header already included, remove this include, glad already provides it
+  (compiling source file 'sistema_solar.cpp')
+  

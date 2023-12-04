@@ -116,9 +116,9 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;GLFW_INCLUDE_NONE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\IMPORTANTE\ubi\23_24\CompGrafica\Libsnstuff\OpenGL-tutorial-master;C:\IMPORTANTE\ubi\23_24\CompGrafica\Libsnstuff\glfw-3.3.8.bin.WIN64\include;C:\IMPORTANTE\ubi\23_24\CompGrafica\Libsnstuff\glew-2.1.0\include;C:\IMPORTANTE\ubi\23_24\CompGrafica\Libsnstuff\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\IMPORTANTE\ubi\23_24\CompGrafica\Libsnstuff\glad\include;C:\IMPORTANTE\ubi\23_24\CompGrafica\Libsnstuff\OpenGL-tutorial-master;C:\IMPORTANTE\ubi\23_24\CompGrafica\Libsnstuff\glfw-3.3.8.bin.WIN64\include;C:\IMPORTANTE\ubi\23_24\CompGrafica\Libsnstuff\glew-2.1.0\include;C:\IMPORTANTE\ubi\23_24\CompGrafica\Libsnstuff\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,6 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Libsnstuff\glad\src\glad.c" />
     <ClCompile Include="sistema_solar.cpp" />
     <ClCompile Include="textFile.cpp" />
   </ItemGroup>
@@ -141,6 +142,7 @@
     <None Include="test.vert" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="camera.h" />
     <ClInclude Include="textFile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

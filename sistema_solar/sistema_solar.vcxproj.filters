@@ -21,6 +21,9 @@
     <ClCompile Include="textFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\Libsnstuff\glad\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="test.cont">
@@ -41,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="textFile.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
